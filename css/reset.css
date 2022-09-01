@@ -1,0 +1,22 @@
+/* 기본세팅 */
+*{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+ul,li{ 
+	list-style: none; 
+}
+a{ 
+	text-decoration: none; 
+	color: inherit;
+}
+img{ 
+	border: 0; 
+	vertical-align: middle;
+}
+
+.inner{
+	max-width: 1200px;
+	margin: auto;
+}

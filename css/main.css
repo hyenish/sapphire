@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+main{
+    position: relative;
+  }
+/***********섹션 1 ITEMS***********/
+#items {
+  height: 500px;
+  width: 100%;
+}
+#items ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#items ul li {
+  text-align: center;
+}
+#items ul li img {
+
+  box-shadow: 3px 3px 3px #eee;
+}
+#items ul li p.item_name {
+  font-size: 20px;
+  font-family: "Cantata One";
+  margin: 20px 0;
+}
+#items ul li p.detail {
+
+  font-weight: 200;
+}
+#items ul li p.price {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/***********섹션 2 ICONS***********/
+#icons {
+  width: 100%;
+  background-color: #a0c1d5;
+  height: 300px;
+  position: relative;
+}
+#icons .inner {
+
+  height: 100%;
+}
+#icons .inner ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#icons .inner li {
+
+}
+#icons .inner li a {
+  text-align: center;
+}
+#icons .inner li a img {
+
+}
+#icons .inner li a p{
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+/***********섹션 3 RINGS ***********/
+#rings {
+  width: 100%;
+  height: 500px;
+}
+#rings .inner {
+  margin-top: 100px;
+}
+#rings .inner ul {
+  display: flex;
+  justify-content: space-between;
+}
+#rings .inner ul li {
+  text-align: center;
+}
+#rings .inner ul li img {
+
+}
+#rings .inner ul li p.item_name {
+  font-size: 20px;
+  font-family: "Cantata One";
+  margin: 20px 0;
+}
+#rings .inner ul li p.detail {
+  font-weight: 200;
+}
+#rings .inner ul li p.price {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/*
+section4: #ecedee / 500px
+section5: #a0c1d5 / 300px
+footer: #4f7e9b / 84px
+
+
+*/

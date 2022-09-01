@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.header_top, .header_title{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/************헤더************/
+header{
+  width: 100%;
+  background-color: #4f7e9b;
+}
+#header_top{
+  display: flex;
+  justify-content: space-between;
+}
+#header_top h1{
+
+}
+#header_top h1 a{
+  color: #fff;
+  line-height: 78px;
+}
+
+nav.top_menu{
+
+  font-family: 'MICEGothic Bold';
+}
+nav.top_menu ul{
+  display: flex;
+  height: 100%;
+  line-height: 78px;
+}
+nav.top_menu ul li{
+  margin-left: 20px;
+  color: #fff;
+}
+nav.top_menu ul li:last-child{
+  border: none;
+}
+nav.top_menu ul li a{
+  border-right: 2px solid #fff;
+  padding-right: 20px;
+}
+
+/************헤더 타이틀************/
+#header_title{
+}
+#header_title img{
+  width: 100%;
+}
+#header_title .text{
+
+}
+#header_title .text h2{ 
+  position: absolute;
+  top: 30%;
+  font-size: 60px;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%);
+}
+#header_title .text p{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-family: 'JSongMyung-Regular-KO';
+  font-size: 14px;
+}
+
+/**************네비게이션 바*************/
+#gnb{
+  position: relative;
+  font-family: 'MICEGothic Bold';
+}
+#gnb >div{
+  height: 50px;
+  background: #e0e0e0;
+  text-align: center;
+}
+#gnb ul{
+  display:inline-block;
+  overflow:hidden;
+}
+#gnb ul li{
+  float: left;
+}
+#gnb ul li a{
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 50px;
+  color: #676767;
+}
+#gnb ul li.active a, #gnb li:hover a{
+  color: #000;
+}
+#gnb ul li.active a:after, #gnb li:hover a:after{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #4f7e9b;
+  margin-top: -5px;
+}
