@@ -22,6 +22,8 @@ header{
 #header_top h1 a{
   color: #fff;
   line-height: 78px;
+  font-family: 'Fall in love';
+  font-size: 40px;
 }
 #header_top nav.top_menu{
   font-family: 'MICEGothic Bold';
@@ -55,20 +57,23 @@ header{
 }
 #header_title .text h2{ 
   position: absolute;
-  top: 22%;
-  font-size: 60px;
+  top: 160px;
+  font-size: 108px;
   color: #fff;
   left: 50%;
   transform: translate(-50%);
+  font-family: 'Fall in love';
+  letter-spacing: 10px;
 }
 #header_title .text p{
   position: absolute;
-  top: 37%;
+  top: 379px;
   left: 50%;
   transform: translate(-50%);
   color: #fff;
-  font-family: 'JSongMyung-Regular-KO';
   font-size: 14px;
+  font-family: 'fall in love';
+  letter-spacing: 3px;
 }
 
 /**************네비게이션 바*************/
@@ -158,6 +163,8 @@ main{
   text-shadow: 2px 2px 5px #bbb;
 }
 #items .inner ul li p.detail {
+  font-family: 'MICEGothic Bold';
+  font-size: 15px;
   font-weight: 200;
 }
 #items .inner ul li p.price {
@@ -188,22 +195,26 @@ main{
 #icons .inner ul li:hover{
   transform: translateY(-5px);
 }
+#icons .inner ul li:hover img{
+}
 #icons .inner ul li a {
   text-align: center;
 }
 #icons .inner ul li a img {
-
+  filter: drop-shadow(0px 0px 5px #fff);
 }
 #icons .inner ul li a p{
   margin-top: 30px;
   font-size: 19px;
+  color: #111;
+  text-shadow: 0 0 5px #fff;
 }
 #icons .inner ul li:hover a:after{
   display: block;
   content: "";
   height: 5px;
   background-color: #4f7e9b;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 /***********섹션 3 RINGS ***********/
 #rings {
@@ -234,6 +245,18 @@ main{
 #rings .inner ul li {
   text-align: center;
 }
+#rings .inner ul li:nth-of-type(1) img{
+    filter: brightness(1.08);
+}
+#rings .inner ul li:nth-of-type(2) img{
+    filter: brightness(1.05);
+}
+#rings .inner ul li:nth-of-type(3) img{
+  filter: brightness(1.14);
+}
+#rings .inner ul li:nth-of-type(4) img{
+  filter: brightness(1.15);
+}
 #rings .inner ul li img {
   box-shadow: 2px 2px 6px #bbb;
 }
@@ -243,6 +266,7 @@ main{
   max-height: 280px;
   overflow: hidden;
 }
+
 #rings .inner ul li p.item_name {
   font-size: 20px;
   font-family: "Cantata One";
@@ -251,6 +275,8 @@ main{
 }
 #rings .inner ul li p.detail {
   font-weight: 200;
+  font-family: 'MICEGothic Bold';
+  font-size: 15px;
 }
 #rings .inner ul li p.price {
   font-weight: 700;
@@ -272,23 +298,27 @@ main{
 }
 #sapphire .inner img {
 
+  height: 424px;
 }
 #sapphire .inner .text{
-  margin: 0 20px;
+  margin: 0 60px;
+  width: 663px;
 }
 #sapphire .inner .text p.title {
-  font-size: 35px;
-  margin: 20px auto;
+  font-size: 48px;
+  margin: 22px auto;
   text-align: center;
-  font-family: 'JSongMyung-Regular-KO';
+  font-family: 'fall in love';
   line-height: 1.5;
 }
 #sapphire .inner .text p.title span{
   font-size: 50px
 }
 #sapphire .inner .text p.detail { 
-  font-family: 'JSongMyung-Regular-KO';
-  line-height: 1.3;
+  line-height: 1.5;
+  font-family: 'MICEGothic Bold';
+  font-size: 20px;
+  margin: 0 17px;
 }
 #sapphire .inner .text p span{
   color: #014b8a;
@@ -299,8 +329,8 @@ main{
 
 /***********섹션 5 BRAND***********/
 #brand {
-    position: relative;
- 
+  position: relative;
+
   width: 100%;
   height: 330px;
   background-color: #0f68a0;
@@ -320,18 +350,21 @@ main{
   color: #fff;
 }
 #brand .inner ul li p.title {
-  font-size: 26px;
+  font-size: 25px;
   margin-bottom: 25px;
   font-weight: 700;
   color: #fff;
   text-shadow: 1px 1px 2px #dad9d9;
+  font-family: 'MICEGothic Bold';
+  margin-top: 20px;
 }
 #brand .inner ul li a{
 
 }
 #brand .inner ul li a p{
   line-height: 2;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'MICEGothic Bold';
 }
 #brand .inner ul li a p:hover{
   text-shadow: 1px 1px 2px #dad9d9;
@@ -358,7 +391,7 @@ main{
 #brand .inner ul li .sns a:nth-child(3):hover{
   color: #4064ac;
   -webkit-text-stroke: 2px #fff;
- 
+
 }
 #brand .inner ul li .sns a:nth-child(4):hover{
   color: #f60002;
